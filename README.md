@@ -5,7 +5,7 @@ Minimalistic docker image with TCP load balancer.
 
 # Description:
 
-This is a very simple but powerful TCP proxy. It's build upon an excellent progrium/busybox image and adds http://www.inlab.de/balance.html tool for balancing
+This is a very simple yet powerful TCP proxy. It's a minimal docker image running http://www.inlab.de/balance.html tool for balancing
 
 
 # TO-DO: 
