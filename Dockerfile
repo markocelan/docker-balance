@@ -10,7 +10,7 @@ RUN cd /usr/src && \
 
 
 FROM scratch
-
+LABEL maintainer="marko.celan@gmail.com"
 COPY --from=build /bin/balance /bin/balance
 
 ENTRYPOINT [ "/bin/balance" ]
